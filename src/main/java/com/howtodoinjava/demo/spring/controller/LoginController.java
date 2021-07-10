@@ -29,7 +29,7 @@ public class LoginController
         return "login";
     }
   
-    @RequestMapping(value="/logout", method = RequestMethod.GET)
+    @RequestMapping(value="/ 34aqpe39=93d/", method = RequestMethod.GET)
     public String logoutPage (HttpServletRequest request, HttpServletResponse response) {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         if (auth != null){   
@@ -37,4 +37,4 @@ public class LoginController
         }
         return "redirect:/login?logout=true";
     }
-}
+}03-2p
